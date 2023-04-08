@@ -13,21 +13,21 @@ h1{
     p
 }
 h2{
-    color: #D3BCCC;
+    color: #3a6850;
     border-radius: 15px;
     font-size: 22px;
-    border: 10px bold #010001
+    border: 10px bold #201f20
 }
 
 h4{
-    color: #D3BCCC;
+    color: #3f498e;
     border-radius: 15px;
     font-size: 22px;
     border: 10px bold #060606
     
 }
 .paragraph{
-    color: #A167A5;
+    color: grey;
     text-align: center;
     font-size: 22px;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
@@ -35,14 +35,38 @@ h4{
 ol{
     list-style: square;
     font-size: 22px;
-    color: rgb(5, 5, 5);
+    color: rgb(133, 130, 130);
 }
 ul{
     list-style: georgian outside url('/non-existent.svg');
-    color: black;
-    font-size:  22px
+    font-size: 15px;
+    color:#201f20
+    
     
 }
 img{border-radius: 50%;
 
 }
+
+footer{
+    background-color: #D3BCCC;
+}
+
+nav ul{
+    display: flex;
+    list-style: none;
+}
+
+nav ul li{
+padding: 10px 15px;
+}
+
+nav ul li a{
+    text-decoration: none;
+    color: black;
+}
+
+nav ul li a:hover{
+    color: grey;
+}
+

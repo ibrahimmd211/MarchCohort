@@ -1,0 +1,16 @@
+.flex-container div{
+width: 20%;
+background-color: aqua;
+border: 1px solid black;
+margin: 10px;
+padding: 10px;
+}
+
+.flex-container{
+    background-color: burlywood;
+    border: 1px solid black;
+    display: flex; 
+    justify-content: center;
+    flex-wrap: wrap;
+
+}

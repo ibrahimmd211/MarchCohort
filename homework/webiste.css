@@ -1,0 +1,92 @@
+body{
+    
+    width: 75%;
+    margin: auto;
+}
+
+h2{
+    size: 22px;
+    text-align: left;
+    color: black;
+}
+nav ul{
+    display: flex;
+    justify-content: flex-end;
+    list-style: none;
+}
+
+nav ul li{
+padding: 10px 15px;
+}
+
+nav ul li a{
+    text-decoration: none;
+    color: black;
+}
+
+nav ul li a:hover{
+    color: bisque;
+}
+
+h1{
+    text-align: center;
+    font-size: 22px;
+    color: black;
+}
+
+span{
+    color: orange;
+}
+
+section{
+    background-color:grey;  
+}
+
+section h4{
+    text-align: center;
+    font-size: 15px;
+    color:white;
+}
+
+section p{
+    text-align: center;
+    font-size: 22px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: white;
+}
+
+main{
+    background-color: orange;
+}
+
+main h3{
+    font-size: 22px;
+    color: black;
+    text-align: center;
+}
+
+    img {
+        max-width: 85%;
+    }
+
+    
+    .flex-container div{
+       width: 20%;
+        background-color: orange; 
+        padding: 10px 25px;
+        }
+        
+        .flex-container{
+        background-color: orange;
+        flex-wrap: wrap;
+        display: flex;
+        align-items: flex-start;
+        justify-content: space-around;
+        }
+        
+
+
+    footer{
+        background-color: black;
+        color: white;
+    }
